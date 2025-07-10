@@ -1,0 +1,223 @@
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-01
+spec:
+  description: gpu-server-rc1-01
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-02
+spec:
+  description: gpu-server-rc1-02
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-03
+spec:
+  description: gpu-server-rc1-03
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-04
+spec:
+  description: gpu-server-rc1-04
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-05
+spec:
+  description: gpu-server-rc1-05
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-06
+spec:
+  description: gpu-server-rc1-06
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-07
+spec:
+  description: gpu-server-rc1-07
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-08
+spec:
+  description: gpu-server-rc1-08
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-09
+spec:
+  description: gpu-server-rc1-09
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-10
+spec:
+  description: gpu-server-rc1-10
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-11
+spec:
+  description: gpu-server-rc1-11
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-12
+spec:
+  description: gpu-server-rc1-12
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-13
+spec:
+  description: gpu-server-rc1-13
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-14
+spec:
+  description: gpu-server-rc1-14
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-15
+spec:
+  description: gpu-server-rc1-15
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-16
+spec:
+  description: gpu-server-rc1-16
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-17
+spec:
+  description: gpu-server-rc1-17
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-18
+spec:
+  description: gpu-server-rc1-18
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-19
+spec:
+  description: gpu-server-rc1-19
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-20
+spec:
+  description: gpu-server-rc1-20
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-21
+spec:
+  description: gpu-server-rc1-21
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-22
+spec:
+  description: gpu-server-rc1-22
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-23
+spec:
+  description: gpu-server-rc1-23
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-24
+spec:
+  description: gpu-server-rc1-24
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-25
+spec:
+  description: gpu-server-rc1-25
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-26
+spec:
+  description: gpu-server-rc1-26
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-27
+spec:
+  description: gpu-server-rc1-27
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-28
+spec:
+  description: gpu-server-rc1-28
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-29
+spec:
+  description: gpu-server-rc1-29
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-30
+spec:
+  description: gpu-server-rc1-30
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-31
+spec:
+  description: gpu-server-rc1-31
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: gpu-server-rc1-32
+spec:
+  description: gpu-server-rc1-32

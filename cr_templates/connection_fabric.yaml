@@ -1,0 +1,19 @@
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: $(connection_name)
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: $(matching_record_1(leaf_port))
+      spine:
+        port: $(matching_record_1(spine_port))
+    - leaf:
+        port: $(matching_record_2(leaf_port)) 
+      spine:
+        port: $(matching_record_2(spine_port))
+    - leaf:
+        port: $(matching_record_n(leaf_port)) 
+      spine:
+        port: $(matching_record_n(spine_port))

@@ -1,0 +1,575 @@
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: 800g-backend-spine-u41--fabric--800g-backend-leaf-u29
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/49"
+      spine:
+        port: "800g-backend-spine-u41/E1/49"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/50"
+      spine:
+        port: "800g-backend-spine-u41/E1/50"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/51"
+      spine:
+        port: "800g-backend-spine-u41/E1/51"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/52"
+      spine:
+        port: "800g-backend-spine-u41/E1/52"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/53"
+      spine:
+        port: "800g-backend-spine-u41/E1/53"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/54"
+      spine:
+        port: "800g-backend-spine-u41/E1/54"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/55"
+      spine:
+        port: "800g-backend-spine-u41/E1/55"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/56"
+      spine:
+        port: "800g-backend-spine-u41/E1/56"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/57"
+      spine:
+        port: "800g-backend-spine-u41/E1/57"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/58"
+      spine:
+        port: "800g-backend-spine-u41/E1/58"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/59"
+      spine:
+        port: "800g-backend-spine-u41/E1/59"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/60"
+      spine:
+        port: "800g-backend-spine-u41/E1/60"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/61"
+      spine:
+        port: "800g-backend-spine-u41/E1/61"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/62"
+      spine:
+        port: "800g-backend-spine-u41/E1/62"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/63"
+      spine:
+        port: "800g-backend-spine-u41/E1/63"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/64"
+      spine:
+        port: "800g-backend-spine-u41/E1/64"
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: 800g-backend-spine-u41--fabric--800g-backend-leaf-u32
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/49"
+      spine:
+        port: "800g-backend-spine-u41/E1/33"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/50"
+      spine:
+        port: "800g-backend-spine-u41/E1/34"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/51"
+      spine:
+        port: "800g-backend-spine-u41/E1/35"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/52"
+      spine:
+        port: "800g-backend-spine-u41/E1/36"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/53"
+      spine:
+        port: "800g-backend-spine-u41/E1/37"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/54"
+      spine:
+        port: "800g-backend-spine-u41/E1/38"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/55"
+      spine:
+        port: "800g-backend-spine-u41/E1/39"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/56"
+      spine:
+        port: "800g-backend-spine-u41/E1/40"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/57"
+      spine:
+        port: "800g-backend-spine-u41/E1/41"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/58"
+      spine:
+        port: "800g-backend-spine-u41/E1/42"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/59"
+      spine:
+        port: "800g-backend-spine-u41/E1/43"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/60"
+      spine:
+        port: "800g-backend-spine-u41/E1/44"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/61"
+      spine:
+        port: "800g-backend-spine-u41/E1/45"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/62"
+      spine:
+        port: "800g-backend-spine-u41/E1/46"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/63"
+      spine:
+        port: "800g-backend-spine-u41/E1/47"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/64"
+      spine:
+        port: "800g-backend-spine-u41/E1/48"
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: 800g-backend-spine-u41--fabric--800g-backend-leaf-u35
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/49"
+      spine:
+        port: "800g-backend-spine-u41/E1/17"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/50"
+      spine:
+        port: "800g-backend-spine-u41/E1/18"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/51"
+      spine:
+        port: "800g-backend-spine-u41/E1/19"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/52"
+      spine:
+        port: "800g-backend-spine-u41/E1/20"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/53"
+      spine:
+        port: "800g-backend-spine-u41/E1/21"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/54"
+      spine:
+        port: "800g-backend-spine-u41/E1/22"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/55"
+      spine:
+        port: "800g-backend-spine-u41/E1/23"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/56"
+      spine:
+        port: "800g-backend-spine-u41/E1/24"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/57"
+      spine:
+        port: "800g-backend-spine-u41/E1/25"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/58"
+      spine:
+        port: "800g-backend-spine-u41/E1/26"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/59"
+      spine:
+        port: "800g-backend-spine-u41/E1/27"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/60"
+      spine:
+        port: "800g-backend-spine-u41/E1/28"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/61"
+      spine:
+        port: "800g-backend-spine-u41/E1/29"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/62"
+      spine:
+        port: "800g-backend-spine-u41/E1/30"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/63"
+      spine:
+        port: "800g-backend-spine-u41/E1/31"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/64"
+      spine:
+        port: "800g-backend-spine-u41/E1/32"
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: 800g-backend-spine-u41--fabric--800g-backend-leaf-u38
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/49"
+      spine:
+        port: "800g-backend-spine-u41/E1/1"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/50"
+      spine:
+        port: "800g-backend-spine-u41/E1/2"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/51"
+      spine:
+        port: "800g-backend-spine-u41/E1/3"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/52"
+      spine:
+        port: "800g-backend-spine-u41/E1/4"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/53"
+      spine:
+        port: "800g-backend-spine-u41/E1/5"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/54"
+      spine:
+        port: "800g-backend-spine-u41/E1/6"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/55"
+      spine:
+        port: "800g-backend-spine-u41/E1/7"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/56"
+      spine:
+        port: "800g-backend-spine-u41/E1/8"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/57"
+      spine:
+        port: "800g-backend-spine-u41/E1/9"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/58"
+      spine:
+        port: "800g-backend-spine-u41/E1/10"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/59"
+      spine:
+        port: "800g-backend-spine-u41/E1/11"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/60"
+      spine:
+        port: "800g-backend-spine-u41/E1/12"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/61"
+      spine:
+        port: "800g-backend-spine-u41/E1/13"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/62"
+      spine:
+        port: "800g-backend-spine-u41/E1/14"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/63"
+      spine:
+        port: "800g-backend-spine-u41/E1/15"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/64"
+      spine:
+        port: "800g-backend-spine-u41/E1/16"
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: 800g-backend-spine-u44--fabric--800g-backend-leaf-u29
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/33"
+      spine:
+        port: "800g-backend-spine-u44/E1/49"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/34"
+      spine:
+        port: "800g-backend-spine-u44/E1/50"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/35"
+      spine:
+        port: "800g-backend-spine-u44/E1/51"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/36"
+      spine:
+        port: "800g-backend-spine-u44/E1/52"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/37"
+      spine:
+        port: "800g-backend-spine-u44/E1/53"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/38"
+      spine:
+        port: "800g-backend-spine-u44/E1/54"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/39"
+      spine:
+        port: "800g-backend-spine-u44/E1/55"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/40"
+      spine:
+        port: "800g-backend-spine-u44/E1/56"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/41"
+      spine:
+        port: "800g-backend-spine-u44/E1/57"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/42"
+      spine:
+        port: "800g-backend-spine-u44/E1/58"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/43"
+      spine:
+        port: "800g-backend-spine-u44/E1/59"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/44"
+      spine:
+        port: "800g-backend-spine-u44/E1/60"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/45"
+      spine:
+        port: "800g-backend-spine-u44/E1/61"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/46"
+      spine:
+        port: "800g-backend-spine-u44/E1/62"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/47"
+      spine:
+        port: "800g-backend-spine-u44/E1/63"
+    - leaf:
+        port: "800g-backend-leaf-u29/E1/48"
+      spine:
+        port: "800g-backend-spine-u44/E1/64"
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: 800g-backend-spine-u44--fabric--800g-backend-leaf-u32
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/33"
+      spine:
+        port: "800g-backend-spine-u44/E1/33"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/34"
+      spine:
+        port: "800g-backend-spine-u44/E1/34"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/35"
+      spine:
+        port: "800g-backend-spine-u44/E1/35"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/36"
+      spine:
+        port: "800g-backend-spine-u44/E1/36"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/37"
+      spine:
+        port: "800g-backend-spine-u44/E1/37"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/38"
+      spine:
+        port: "800g-backend-spine-u44/E1/38"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/39"
+      spine:
+        port: "800g-backend-spine-u44/E1/39"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/40"
+      spine:
+        port: "800g-backend-spine-u44/E1/40"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/41"
+      spine:
+        port: "800g-backend-spine-u44/E1/41"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/42"
+      spine:
+        port: "800g-backend-spine-u44/E1/42"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/43"
+      spine:
+        port: "800g-backend-spine-u44/E1/43"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/44"
+      spine:
+        port: "800g-backend-spine-u44/E1/44"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/45"
+      spine:
+        port: "800g-backend-spine-u44/E1/45"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/46"
+      spine:
+        port: "800g-backend-spine-u44/E1/46"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/47"
+      spine:
+        port: "800g-backend-spine-u44/E1/47"
+    - leaf:
+        port: "800g-backend-leaf-u32/E1/48"
+      spine:
+        port: "800g-backend-spine-u44/E1/48"
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: 800g-backend-spine-u44--fabric--800g-backend-leaf-u35
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/33"
+      spine:
+        port: "800g-backend-spine-u44/E1/17"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/34"
+      spine:
+        port: "800g-backend-spine-u44/E1/18"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/35"
+      spine:
+        port: "800g-backend-spine-u44/E1/19"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/36"
+      spine:
+        port: "800g-backend-spine-u44/E1/20"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/37"
+      spine:
+        port: "800g-backend-spine-u44/E1/21"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/38"
+      spine:
+        port: "800g-backend-spine-u44/E1/22"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/39"
+      spine:
+        port: "800g-backend-spine-u44/E1/23"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/40"
+      spine:
+        port: "800g-backend-spine-u44/E1/24"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/41"
+      spine:
+        port: "800g-backend-spine-u44/E1/25"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/42"
+      spine:
+        port: "800g-backend-spine-u44/E1/26"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/43"
+      spine:
+        port: "800g-backend-spine-u44/E1/27"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/44"
+      spine:
+        port: "800g-backend-spine-u44/E1/28"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/45"
+      spine:
+        port: "800g-backend-spine-u44/E1/29"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/46"
+      spine:
+        port: "800g-backend-spine-u44/E1/30"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/47"
+      spine:
+        port: "800g-backend-spine-u44/E1/31"
+    - leaf:
+        port: "800g-backend-leaf-u35/E1/48"
+      spine:
+        port: "800g-backend-spine-u44/E1/32"
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: 800g-backend-spine-u44--fabric--800g-backend-leaf-u38
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/33"
+      spine:
+        port: "800g-backend-spine-u44/E1/1"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/34"
+      spine:
+        port: "800g-backend-spine-u44/E1/2"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/35"
+      spine:
+        port: "800g-backend-spine-u44/E1/3"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/36"
+      spine:
+        port: "800g-backend-spine-u44/E1/4"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/37"
+      spine:
+        port: "800g-backend-spine-u44/E1/5"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/38"
+      spine:
+        port: "800g-backend-spine-u44/E1/6"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/39"
+      spine:
+        port: "800g-backend-spine-u44/E1/7"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/40"
+      spine:
+        port: "800g-backend-spine-u44/E1/8"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/41"
+      spine:
+        port: "800g-backend-spine-u44/E1/9"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/42"
+      spine:
+        port: "800g-backend-spine-u44/E1/10"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/43"
+      spine:
+        port: "800g-backend-spine-u44/E1/11"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/44"
+      spine:
+        port: "800g-backend-spine-u44/E1/12"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/45"
+      spine:
+        port: "800g-backend-spine-u44/E1/13"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/46"
+      spine:
+        port: "800g-backend-spine-u44/E1/14"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/47"
+      spine:
+        port: "800g-backend-spine-u44/E1/15"
+    - leaf:
+        port: "800g-backend-leaf-u38/E1/48"
+      spine:
+        port: "800g-backend-spine-u44/E1/16"

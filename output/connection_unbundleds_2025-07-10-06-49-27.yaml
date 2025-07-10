@@ -1,0 +1,3059 @@
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-01--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-01/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/1/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-01--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-01/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/1/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-01--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-01/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/1/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-01--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-01/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/1/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-01--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-01/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/1/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-01--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-01/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/1/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-01--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-01/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/1/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-01--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-01/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/1/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-02--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-02/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/2/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-02--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-02/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/2/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-02--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-02/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/2/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-02--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-02/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/2/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-02--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-02/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/2/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-02--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-02/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/2/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-02--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-02/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/2/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-02--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-02/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/2/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-03--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-03/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/3/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-03--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-03/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/3/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-03--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-03/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/3/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-03--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-03/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/3/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-03--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-03/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/3/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-03--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-03/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/3/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-03--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-03/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/3/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-03--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-03/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/3/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-04--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-04/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/4/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-04--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-04/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/4/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-04--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-04/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/4/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-04--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-04/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/4/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-04--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-04/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/4/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-04--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-04/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/4/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-04--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-04/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/4/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-04--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-04/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/4/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-05--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-05/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/5/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-05--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-05/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/5/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-05--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-05/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/5/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-05--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-05/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/5/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-05--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-05/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/5/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-05--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-05/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/5/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-05--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-05/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/5/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-05--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-05/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/5/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-06--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-06/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/6/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-06--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-06/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/6/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-06--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-06/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/6/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-06--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-06/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/6/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-06--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-06/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/6/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-06--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-06/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/6/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-06--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-06/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/6/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-06--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-06/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/6/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-07--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-07/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/7/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-07--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-07/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/7/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-07--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-07/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/7/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-07--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-07/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/7/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-07--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-07/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/7/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-07--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-07/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/7/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-07--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-07/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/7/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-07--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-07/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/7/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-08--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-08/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/8/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-08--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-08/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/8/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-08--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-08/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/8/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-08--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-08/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/8/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-08--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-08/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/8/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-08--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-08/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/8/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-08--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-08/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/8/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-08--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-08/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/8/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-09--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-09/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/9/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-09--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-09/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/9/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-09--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-09/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/9/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-09--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-09/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/9/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-09--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-09/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/9/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-09--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-09/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/9/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-09--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-09/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/9/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-09--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-09/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/9/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-10--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-10/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/10/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-10--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-10/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/10/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-10--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-10/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/10/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-10--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-10/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/10/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-10--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-10/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/10/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-10--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-10/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/10/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-10--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-10/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/10/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-10--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-10/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/10/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-11--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-11/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/11/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-11--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-11/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/11/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-11--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-11/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/11/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-11--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-11/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/11/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-11--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-11/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/11/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-11--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-11/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/11/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-11--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-11/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/11/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-11--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-11/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/11/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-12--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-12/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/12/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-12--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-12/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/12/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-12--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-12/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/12/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-12--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-12/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/12/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-12--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-12/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/12/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-12--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-12/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/12/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-12--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-12/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/12/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-12--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-12/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/12/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-13--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-13/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/13/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-13--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-13/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/13/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-13--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-13/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/13/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-13--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-13/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/13/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-13--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-13/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/13/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-13--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-13/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/13/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-13--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-13/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/13/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-13--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-13/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/13/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-14--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-14/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/14/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-14--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-14/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/14/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-14--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-14/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/14/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-14--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-14/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/14/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-14--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-14/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/14/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-14--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-14/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/14/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-14--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-14/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/14/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-14--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-14/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/14/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-15--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-15/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/15/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-15--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-15/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/15/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-15--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-15/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/15/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-15--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-15/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/15/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-15--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-15/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/15/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-15--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-15/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/15/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-15--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-15/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/15/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-15--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-15/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/15/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-16--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-16/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/16/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-16--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-16/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/16/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-16--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-16/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/16/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-16--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-16/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/16/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-16--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-16/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/16/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-16--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-16/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/16/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-16--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-16/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/16/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-16--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-16/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/16/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-17--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-17/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/17/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-17--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-17/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/17/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-17--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-17/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/17/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-17--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-17/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/17/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-17--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-17/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/17/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-17--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-17/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/17/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-17--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-17/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/17/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-17--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-17/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/17/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-18--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-18/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/18/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-18--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-18/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/18/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-18--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-18/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/18/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-18--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-18/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/18/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-18--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-18/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/18/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-18--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-18/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/18/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-18--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-18/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/18/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-18--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-18/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/18/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-19--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-19/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/19/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-19--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-19/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/19/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-19--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-19/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/19/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-19--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-19/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/19/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-19--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-19/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/19/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-19--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-19/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/19/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-19--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-19/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/19/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-19--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-19/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/19/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-20--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-20/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/20/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-20--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-20/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/20/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-20--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-20/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/20/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-20--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-20/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/20/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-20--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-20/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/20/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-20--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-20/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/20/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-20--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-20/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/20/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-20--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-20/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/20/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-21--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-21/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/21/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-21--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-21/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/21/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-21--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-21/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/21/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-21--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-21/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/21/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-21--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-21/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/21/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-21--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-21/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/21/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-21--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-21/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/21/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-21--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-21/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/21/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-22--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-22/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/22/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-22--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-22/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/22/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-22--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-22/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/22/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-22--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-22/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/22/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-22--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-22/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/22/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-22--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-22/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/22/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-22--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-22/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/22/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-22--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-22/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/22/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-23--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-23/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/23/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-23--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-23/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/23/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-23--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-23/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/23/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-23--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-23/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/23/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-23--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-23/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/23/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-23--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-23/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/23/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-23--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-23/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/23/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-23--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-23/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/23/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-24--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-24/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/24/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-24--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-24/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/24/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-24--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-24/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/24/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-24--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-24/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/24/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-24--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-24/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/24/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-24--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-24/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/24/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-24--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-24/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/24/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-24--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-24/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/24/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-25--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-25/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/25/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-25--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-25/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/25/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-25--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-25/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/25/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-25--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-25/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/25/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-25--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-25/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/25/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-25--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-25/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/25/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-25--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-25/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/25/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-25--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-25/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/25/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-26--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-26/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/26/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-26--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-26/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/26/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-26--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-26/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/26/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-26--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-26/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/26/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-26--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-26/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/26/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-26--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-26/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/26/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-26--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-26/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/26/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-26--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-26/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/26/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-27--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-27/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/27/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-27--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-27/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/27/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-27--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-27/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/27/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-27--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-27/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/27/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-27--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-27/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/27/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-27--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-27/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/27/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-27--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-27/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/27/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-27--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-27/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/27/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-28--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-28/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/28/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-28--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-28/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/28/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-28--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-28/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/28/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-28--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-28/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/28/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-28--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-28/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/28/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-28--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-28/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/28/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-28--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-28/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/28/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-28--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-28/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/28/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-29--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-29/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/29/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-29--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-29/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/29/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-29--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-29/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/29/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-29--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-29/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/29/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-29--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-29/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/29/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-29--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-29/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/29/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-29--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-29/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/29/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-29--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-29/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/29/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-30--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-30/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/30/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-30--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-30/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/30/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-30--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-30/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/30/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-30--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-30/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/30/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-30--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-30/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/30/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-30--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-30/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/30/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-30--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-30/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/30/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-30--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-30/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/30/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-31--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-31/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/31/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-31--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-31/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/31/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-31--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-31/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/31/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-31--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-31/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/31/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-31--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-31/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/31/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-31--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-31/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/31/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-31--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-31/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/31/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-31--GPU-NIC-8--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-31/GPU-NIC-8
+      switch:
+        port: 800g-backend-leaf-u29/E1/31/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-32--GPU-NIC-1--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-32/GPU-NIC-1
+      switch:
+        port: 800g-backend-leaf-u38/E1/32/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-32--GPU-NIC-2--800g-backend-leaf-u38
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-32/GPU-NIC-2
+      switch:
+        port: 800g-backend-leaf-u38/E1/32/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-32--GPU-NIC-3--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-32/GPU-NIC-3
+      switch:
+        port: 800g-backend-leaf-u35/E1/32/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-32--GPU-NIC-4--800g-backend-leaf-u35
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-32/GPU-NIC-4
+      switch:
+        port: 800g-backend-leaf-u35/E1/32/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-32--GPU-NIC-5--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-32/GPU-NIC-5
+      switch:
+        port: 800g-backend-leaf-u32/E1/32/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-32--GPU-NIC-6--800g-backend-leaf-u32
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-32/GPU-NIC-6
+      switch:
+        port: 800g-backend-leaf-u32/E1/32/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: gpu-server-rc1-32--GPU-NIC-7--800g-backend-leaf-u29
+spec:
+  unbundled:
+    link:
+      server:
+        port: gpu-server-rc1-32/GPU-NIC-7
+      switch:
+        port: 800g-backend-leaf-u29/E1/32/1

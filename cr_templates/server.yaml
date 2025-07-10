@@ -1,0 +1,6 @@
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: $(name)
+spec:
+  description: $(name)

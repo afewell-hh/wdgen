@@ -1,0 +1,1169 @@
+#
+# VLANNamespaceList
+#
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: VLANNamespace
+metadata:
+  name: default
+spec:
+  ranges:
+  - from: 1000
+    to: 2999
+#
+# IPv4NamespaceList
+#
+---
+apiVersion: vpc.githedgehog.com/v1beta1
+kind: IPv4Namespace
+metadata:
+  name: default
+spec:
+  subnets:
+  - 10.0.0.0/16
+#
+# SwitchGroupList
+#
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Switch
+metadata:
+  name: leaf-01
+spec:
+  boot:
+    mac: 0c:20:12:ff:00:00
+  description: Backend Leaf 01
+  profile: celestica-ds5000
+  redundancy: {}
+  role: server-leaf
+  portBreakouts:
+    E1/1: 2x400G
+    E1/2: 2x400G
+    E1/3: 2x400G
+    E1/4: 2x400G
+    E1/5: 2x400G
+    E1/6: 2x400G
+    E1/7: 2x400G
+    E1/8: 2x400G
+    E1/9: 2x400G
+    E1/10: 2x400G
+    E1/11: 2x400G
+    E1/12: 2x400G
+    E1/13: 2x400G
+    E1/14: 2x400G
+    E1/15: 2x400G
+    E1/16: 2x400G
+  portAutoNegs:
+    E1/1/1: true
+    E1/1/2: true
+    E1/2/1: true
+    E1/2/2: true
+    E1/3/1: true
+    E1/3/2: true
+    E1/4/1: true
+    E1/4/2: true
+    E1/5/1: true
+    E1/5/2: true
+    E1/6/1: true
+    E1/6/2: true
+    E1/7/1: true
+    E1/7/2: true
+    E1/8/1: true
+    E1/8/2: true
+    E1/9/1: true
+    E1/9/2: true
+    E1/10/1: true
+    E1/10/2: true
+    E1/11/1: true
+    E1/11/2: true
+    E1/12/1: true
+    E1/12/2: true
+    E1/13/1: true
+    E1/13/2: true
+    E1/14/1: true
+    E1/14/2: true
+    E1/15/1: true
+    E1/15/2: true
+    E1/16/1: true
+    E1/16/2: true
+  portSpeeds:
+    E1/65: 10G
+    E1/66: 10G
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Switch
+metadata:
+  name: leaf-02
+spec:
+  boot:
+    mac: 0c:20:12:ff:01:00
+  description: Backend Leaf 02
+  profile: celestica-ds5000
+  redundancy: {}
+  role: server-leaf
+  portBreakouts:
+    E1/1: 2x400G
+    E1/2: 2x400G
+    E1/3: 2x400G
+    E1/4: 2x400G
+    E1/5: 2x400G
+    E1/6: 2x400G
+    E1/7: 2x400G
+    E1/8: 2x400G
+    E1/9: 2x400G
+    E1/10: 2x400G
+    E1/11: 2x400G
+    E1/12: 2x400G
+    E1/13: 2x400G
+    E1/14: 2x400G
+    E1/15: 2x400G
+    E1/16: 2x400G
+  portAutoNegs:
+    E1/1/1: true
+    E1/1/2: true
+    E1/2/1: true
+    E1/2/2: true
+    E1/3/1: true
+    E1/3/2: true
+    E1/4/1: true
+    E1/4/2: true
+    E1/5/1: true
+    E1/5/2: true
+    E1/6/1: true
+    E1/6/2: true
+    E1/7/1: true
+    E1/7/2: true
+    E1/8/1: true
+    E1/8/2: true
+    E1/9/1: true
+    E1/9/2: true
+    E1/10/1: true
+    E1/10/2: true
+    E1/11/1: true
+    E1/11/2: true
+    E1/12/1: true
+    E1/12/2: true
+    E1/13/1: true
+    E1/13/2: true
+    E1/14/1: true
+    E1/14/2: true
+    E1/15/1: true
+    E1/15/2: true
+    E1/16/1: true
+    E1/16/2: true
+  portSpeeds:
+    E1/65: 10G
+    E1/66: 10G
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Switch
+metadata:
+  name: spine-01
+spec:
+  boot:
+    mac: 0c:20:12:ff:02:00
+  description: Backend Spine 01
+  profile: celestica-ds5000
+  redundancy: {}
+  role: spine
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Switch
+metadata:
+  name: spine-02
+spec:
+  boot:
+    mac: 0c:20:12:ff:03:00
+  description: Backend Spine 02
+  profile: celestica-ds5000
+  redundancy: {}
+  role: spine
+#
+# ServerList
+#
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: server-01
+spec:
+  description: S-01 Unbundled leaf-01
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: server-02
+spec:
+  description: S-02 Unbundled leaf-01
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: server-03
+spec:
+  description: S-03 Unbundled leaf-01
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: server-04
+spec:
+  description: S-04 Unbundled leaf-01
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: server-05
+spec:
+  description: S-05 Unbundled leaf-01
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: server-06
+spec:
+  description: S-06 Unbundled leaf-01
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: server-07
+spec:
+  description: S-07 Unbundled leaf-01
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: server-08
+spec:
+  description: S-08 Unbundled leaf-01
+#
+# ConnectionList
+#
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-01-gpu-nic-1--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-01/GPU-NIC-1
+      switch:
+        port: leaf-01/E1/1/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-01-gpu-nic-2--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-01/GPU-NIC-2
+      switch:
+        port: leaf-01/E1/1/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-01-gpu-nic-3--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-01/GPU-NIC-3
+      switch:
+        port: leaf-01/E1/2/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-01-gpu-nic-4--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-01/GPU-NIC-4
+      switch:
+        port: leaf-01/E1/2/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-01-gpu-nic-5--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-01/GPU-NIC-5
+      switch:
+        port: leaf-02/E1/1/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-01-gpu-nic-6--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-01/GPU-NIC-6
+      switch:
+        port: leaf-02/E1/1/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-01-gpu-nic-7--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-01/GPU-NIC-7
+      switch:
+        port: leaf-02/E1/2/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-01-gpu-nic-8--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-01/GPU-NIC-8
+      switch:
+        port: leaf-02/E1/2/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-02-gpu-nic-1--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-02/GPU-NIC-1
+      switch:
+        port: leaf-01/E1/3/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-02-gpu-nic-2--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-02/GPU-NIC-2
+      switch:
+        port: leaf-01/E1/3/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-02-gpu-nic-3--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-02/GPU-NIC-3
+      switch:
+        port: leaf-01/E1/4/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-02-gpu-nic-4--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-02/GPU-NIC-4
+      switch:
+        port: leaf-01/E1/4/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-02-gpu-nic-5--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-02/GPU-NIC-5
+      switch:
+        port: leaf-02/E1/3/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-02-gpu-nic-6--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-02/GPU-NIC-6
+      switch:
+        port: leaf-02/E1/3/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-02-gpu-nic-7--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-02/GPU-NIC-7
+      switch:
+        port: leaf-02/E1/4/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-02-gpu-nic-8--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-02/GPU-NIC-8
+      switch:
+        port: leaf-02/E1/4/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-03-gpu-nic-1--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-03/GPU-NIC-1
+      switch:
+        port: leaf-01/E1/5/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-03-gpu-nic-2--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-03/GPU-NIC-2
+      switch:
+        port: leaf-01/E1/5/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-03-gpu-nic-3--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-03/GPU-NIC-3
+      switch:
+        port: leaf-01/E1/6/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-03-gpu-nic-4--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-03/GPU-NIC-4
+      switch:
+        port: leaf-01/E1/6/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-03-gpu-nic-5--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-03/GPU-NIC-5
+      switch:
+        port: leaf-02/E1/5/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-03-gpu-nic-6--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-03/GPU-NIC-6
+      switch:
+        port: leaf-02/E1/5/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-03-gpu-nic-7--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-03/GPU-NIC-7
+      switch:
+        port: leaf-02/E1/6/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-03-gpu-nic-8--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-03/GPU-NIC-8
+      switch:
+        port: leaf-02/E1/6/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-04-gpu-nic-1--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-04/GPU-NIC-1
+      switch:
+        port: leaf-01/E1/7/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-04-gpu-nic-2--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-04/GPU-NIC-2
+      switch:
+        port: leaf-01/E1/7/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-04-gpu-nic-3--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-04/GPU-NIC-3
+      switch:
+        port: leaf-01/E1/8/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-04-gpu-nic-4--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-04/GPU-NIC-4
+      switch:
+        port: leaf-01/E1/8/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-04-gpu-nic-5--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-04/GPU-NIC-5
+      switch:
+        port: leaf-02/E1/7/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-04-gpu-nic-6--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-04/GPU-NIC-6
+      switch:
+        port: leaf-02/E1/7/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-04-gpu-nic-7--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-04/GPU-NIC-7
+      switch:
+        port: leaf-02/E1/8/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-04-gpu-nic-8--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-04/GPU-NIC-8
+      switch:
+        port: leaf-02/E1/8/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-05-gpu-nic-1--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-05/GPU-NIC-1
+      switch:
+        port: leaf-01/E1/9/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-05-gpu-nic-2--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-05/GPU-NIC-2
+      switch:
+        port: leaf-01/E1/9/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-05-gpu-nic-3--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-05/GPU-NIC-3
+      switch:
+        port: leaf-01/E1/10/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-05-gpu-nic-4--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-05/GPU-NIC-4
+      switch:
+        port: leaf-01/E1/10/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-05-gpu-nic-5--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-05/GPU-NIC-5
+      switch:
+        port: leaf-02/E1/9/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-05-gpu-nic-6--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-05/GPU-NIC-6
+      switch:
+        port: leaf-02/E1/9/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-05-gpu-nic-7--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-05/GPU-NIC-7
+      switch:
+        port: leaf-02/E1/10/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-05-gpu-nic-8--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-05/GPU-NIC-8
+      switch:
+        port: leaf-02/E1/10/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-06-gpu-nic-1--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-06/GPU-NIC-1
+      switch:
+        port: leaf-01/E1/11/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-06-gpu-nic-2--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-06/GPU-NIC-2
+      switch:
+        port: leaf-01/E1/11/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-06-gpu-nic-3--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-06/GPU-NIC-3
+      switch:
+        port: leaf-01/E1/12/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-06-gpu-nic-4--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-06/GPU-NIC-4
+      switch:
+        port: leaf-01/E1/12/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-06-gpu-nic-5--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-06/GPU-NIC-5
+      switch:
+        port: leaf-02/E1/11/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-06-gpu-nic-6--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-06/GPU-NIC-6
+      switch:
+        port: leaf-02/E1/11/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-06-gpu-nic-7--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-06/GPU-NIC-7
+      switch:
+        port: leaf-02/E1/12/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-06-gpu-nic-8--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-06/GPU-NIC-8
+      switch:
+        port: leaf-02/E1/12/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-07-gpu-nic-1--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-07/GPU-NIC-1
+      switch:
+        port: leaf-01/E1/13/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-07-gpu-nic-2--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-07/GPU-NIC-2
+      switch:
+        port: leaf-01/E1/13/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-07-gpu-nic-3--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-07/GPU-NIC-3
+      switch:
+        port: leaf-01/E1/14/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-07-gpu-nic-4--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-07/GPU-NIC-4
+      switch:
+        port: leaf-01/E1/14/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-07-gpu-nic-5--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-07/GPU-NIC-5
+      switch:
+        port: leaf-02/E1/13/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-07-gpu-nic-6--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-07/GPU-NIC-6
+      switch:
+        port: leaf-02/E1/13/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-07-gpu-nic-7--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-07/GPU-NIC-7
+      switch:
+        port: leaf-02/E1/14/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-07-gpu-nic-8--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-07/GPU-NIC-8
+      switch:
+        port: leaf-02/E1/14/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-08-gpu-nic-1--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-08/GPU-NIC-1
+      switch:
+        port: leaf-01/E1/15/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-08-gpu-nic-2--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-08/GPU-NIC-2
+      switch:
+        port: leaf-01/E1/15/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-08-gpu-nic-3--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-08/GPU-NIC-3
+      switch:
+        port: leaf-01/E1/16/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-08-gpu-nic-4--unbundled--leaf-01
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-08/GPU-NIC-4
+      switch:
+        port: leaf-01/E1/16/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-08-gpu-nic-5--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-08/GPU-NIC-5
+      switch:
+        port: leaf-02/E1/15/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-08-gpu-nic-6--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-08/GPU-NIC-6
+      switch:
+        port: leaf-02/E1/15/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-08-gpu-nic-7--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-08/GPU-NIC-7
+      switch:
+        port: leaf-02/E1/16/1
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-08-gpu-nic-8--unbundled--leaf-02
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-08/GPU-NIC-8
+      switch:
+        port: leaf-02/E1/16/2
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: spine-01--fabric--leaf-01
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: leaf-01/E1/49
+      spine:
+        port: spine-01/E1/1
+    - leaf:
+        port: leaf-01/E1/50
+      spine:
+        port: spine-01/E1/2
+    - leaf:
+        port: leaf-01/E1/51
+      spine:
+        port: spine-01/E1/3
+    - leaf:
+        port: leaf-01/E1/52
+      spine:
+        port: spine-01/E1/4
+    - leaf:
+        port: leaf-01/E1/53
+      spine:
+        port: spine-01/E1/5
+    - leaf:
+        port: leaf-01/E1/54
+      spine:
+        port: spine-01/E1/6
+    - leaf:
+        port: leaf-01/E1/55
+      spine:
+        port: spine-01/E1/7
+    - leaf:
+        port: leaf-01/E1/56
+      spine:
+        port: spine-01/E1/8
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: spine-02--fabric--leaf-01
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: leaf-01/E1/57
+      spine:
+        port: spine-02/E1/1
+    - leaf:
+        port: leaf-01/E1/58
+      spine:
+        port: spine-02/E1/2
+    - leaf:
+        port: leaf-01/E1/59
+      spine:
+        port: spine-02/E1/3
+    - leaf:
+        port: leaf-01/E1/60
+      spine:
+        port: spine-02/E1/4
+    - leaf:
+        port: leaf-01/E1/61
+      spine:
+        port: spine-02/E1/5
+    - leaf:
+        port: leaf-01/E1/62
+      spine:
+        port: spine-02/E1/6
+    - leaf:
+        port: leaf-01/E1/63
+      spine:
+        port: spine-02/E1/7
+    - leaf:
+        port: leaf-01/E1/64
+      spine:
+        port: spine-02/E1/8
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: spine-01--fabric--leaf-02
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: leaf-02/E1/49
+      spine:
+        port: spine-01/E1/9
+    - leaf:
+        port: leaf-02/E1/50
+      spine:
+        port: spine-01/E1/10
+    - leaf:
+        port: leaf-02/E1/51
+      spine:
+        port: spine-01/E1/11
+    - leaf:
+        port: leaf-02/E1/52
+      spine:
+        port: spine-01/E1/12
+    - leaf:
+        port: leaf-02/E1/53
+      spine:
+        port: spine-01/E1/13
+    - leaf:
+        port: leaf-02/E1/54
+      spine:
+        port: spine-01/E1/14
+    - leaf:
+        port: leaf-02/E1/55
+      spine:
+        port: spine-01/E1/15
+    - leaf:
+        port: leaf-02/E1/56
+      spine:
+        port: spine-01/E1/16
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: spine-02--fabric--leaf-02
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: leaf-02/E1/57
+      spine:
+        port: spine-02/E1/9
+    - leaf:
+        port: leaf-02/E1/58
+      spine:
+        port: spine-02/E1/10
+    - leaf:
+        port: leaf-02/E1/59
+      spine:
+        port: spine-02/E1/11
+    - leaf:
+        port: leaf-02/E1/60
+      spine:
+        port: spine-02/E1/12
+    - leaf:
+        port: leaf-02/E1/61
+      spine:
+        port: spine-02/E1/13
+    - leaf:
+        port: leaf-02/E1/62
+      spine:
+        port: spine-02/E1/14
+    - leaf:
+        port: leaf-02/E1/63
+      spine:
+        port: spine-02/E1/15
+    - leaf:
+        port: leaf-02/E1/64
+      spine:
+        port: spine-02/E1/16

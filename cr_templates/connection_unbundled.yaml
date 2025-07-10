@@ -1,0 +1,11 @@
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: $(connection_name)
+spec:
+  unbundled:
+    link:
+      server:
+        port: $(server_port)
+      switch:
+        port: $(leaf_port)
