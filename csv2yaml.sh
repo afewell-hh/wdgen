@@ -46,7 +46,7 @@ Cloud Native CSV to YAML Converter
 Converts CSV records into Kubernetes-style YAML objects based on templates.
 
 OPTIONS:
-    -t TYPE         Object type (server, connection_unbundled, connection_fabric)
+    -t TYPE         Object type (server, connection_unbundled, connection_fabric, vpcattachment)
     -i INPUT_FILE   Path to input CSV file
     -o OUTPUT_DIR   Output directory (default: ./output)
     -h              Display this help message
@@ -59,6 +59,7 @@ SUPPORTED TYPES:
     - server: Converts server CSV records to Server YAML objects
     - connection_fabric: Groups fabric connection CSV records by connection_name into Connection YAML objects
     - connection_unbundled: Converts unbundled connection CSV records (1:1) to Connection YAML objects
+    - vpcattachment: Converts VPC attachment CSV records (1:1) to VPCAttachment YAML objects
 
 EOF
 }
@@ -345,6 +346,67 @@ EOF
     return 0
 }
 
+# Function to process vpcattachment type CSV
+process_vpcattachment_csv() {
+    local input_file="$1"
+    local output_file="$2"
+    local template_file="${TEMPLATE_DIR}/vpcattachment.yaml"
+    
+    # Read the template
+    local template
+    template=$(cat "$template_file")
+    
+    # Initialize counters
+    local count=0
+    local first=true
+    
+    # Create or truncate output file
+    : > "$output_file"
+    
+    print_info "Processing vpcattachment objects from: $(basename "$input_file")"
+    
+    # Read all lines except header into array
+    mapfile -t lines < <(tail -n +2 "$input_file")
+    
+    for line in "${lines[@]}"; do
+        # Skip empty lines
+        [[ -z "$line" ]] && continue
+        
+        # Parse CSV fields: attachment_name,connection,subnet
+        attachment_name=$(echo "$line" | cut -d',' -f1)
+        connection=$(echo "$line" | cut -d',' -f2)
+        subnet=$(echo "$line" | cut -d',' -f3)
+        
+        # Trim whitespace from all fields
+        attachment_name=$(echo "$attachment_name" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+        connection=$(echo "$connection" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+        subnet=$(echo "$subnet" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+        
+        # Skip if attachment_name is empty
+        [[ -z "$attachment_name" ]] && continue
+        
+        # Add separator between objects (except for the first one)
+        if [[ "$first" == true ]]; then
+            first=false
+        else
+            echo "---" >> "$output_file"
+        fi
+        
+        # Replace placeholders in template
+        echo "$template" | sed "s|\\\$(attachment_name)|$attachment_name|g" | sed "s|\\\$(connection)|$connection|g" | sed "s|\\\$(subnet)|$subnet|g" >> "$output_file"
+        
+        count=$((count + 1))
+        
+        # Progress indicator
+        if (( count % 10 == 0 )); then
+            print_info "Processed $count objects..."
+        fi
+    done
+    
+    print_success "Generated $count vpcattachment objects"
+    return 0
+}
+
 # Main function
 main() {
     local object_type=""
@@ -389,11 +451,11 @@ main() {
     
     # Validate object type
     case "$object_type" in
-        server|connection_fabric|connection_unbundled)
+        server|connection_fabric|connection_unbundled|vpcattachment)
             ;;
         *)
             print_error "Invalid object type: $object_type"
-            print_info "Supported types: server, connection_unbundled, connection_fabric"
+            print_info "Supported types: server, connection_unbundled, connection_fabric, vpcattachment"
             exit 1
             ;;
     esac
@@ -427,6 +489,9 @@ main() {
             ;;
         connection_unbundled)
             process_connection_unbundled_csv "$input_file" "$output_file"
+            ;;
+        vpcattachment)
+            process_vpcattachment_csv "$input_file" "$output_file"
             ;;
     esac
     

@@ -1,0 +1,9 @@
+apiVersion: vpc.githedgehog.com/v1beta1
+kind: VPCAttachment
+metadata:
+  name: $(attachment_name)
+  namespace: default 
+spec:
+  nativeVLAN: true
+  subnet: $(subnet)
+  connection: $(connection)
